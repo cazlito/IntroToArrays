@@ -28,5 +28,15 @@ for name in fruitNames {
 print("I like to eat \(fruitNames[2])")
 print(fruitNames[1])
 
+var expensiveCar: [String]
+
+expensiveCar = ["Lambo", "Bugatti", "Maycach", "Porsche", "Rolls-Royce", "Cadillac", "BMW", "Ferrari"]
+
+for name in expensiveCar {
+    print(name + " is a very expensive car")
+}
+
+print(expensiveCar[0])
+
 
 
